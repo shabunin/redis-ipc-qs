@@ -1,14 +1,22 @@
 {
-  "name": "redis-ipc-qsmessaging",
-  "version": "1.0.4",
+  "name": "redis-ipc-qs",
+  "version": "1.0.6",
   "description": "Redis-ipc request-response model.",
+  "keywords": ["redis", "ipc", "request", "response"],
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shabunin/redis-ipc-qs.git"
+  },
+  "bugs":·{
+    "url": "https://github.com/shabunin/redis-ipc-qs/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vladimir Shabunin",
   "license": "DBAD",
   "dependencies": {
-    "redis-ipc": "^1.0.4"
+    "redis-ipc": "^1.0.6"
   }
 }
