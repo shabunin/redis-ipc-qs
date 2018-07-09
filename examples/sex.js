@@ -1,4 +1,4 @@
-const Server = require('./server');
+const Server = require('../server');
 
 let myServer = Server((req, res) => {
   console.log(req);

@@ -1,4 +1,4 @@
-const Client = require('./client');
+const Client = require('../client');
 
 let myClient = Client({timeout: 1000, debug: false});
 

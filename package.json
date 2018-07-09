@@ -1,13 +1,13 @@
 {
   "name": "redis-ipc-qsmessaging",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Redis-ipc request-response model.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Vladimir Shabunin",
+  "license": "DBAD",
   "dependencies": {
     "redis-ipc": "^1.0.4"
   }
